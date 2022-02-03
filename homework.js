@@ -36,5 +36,7 @@ const button1 = function () {
 }
 
 
-    
+let clickedN =
+clickedN = document.getElementById('Ndisplay').addEventListener('click', clickedN.classList.add(clickedN))
+
 
