@@ -28,16 +28,13 @@ let generateChart2 = function (number2) {
     chart1.appendChild(Div)
 }
 
-let playerChart =[];
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+
+const button1 = function () {
+   let nButton = document.getElementById('Ndisplay')
+    nButton.innerText = Math.floor(Math.random()*77)
+
+}
+
+
     
-}
 
-
-let button1 = function () {
-   let nButton = document.getElementById('playButton')
-    let randomN = document.innerText(Math.floor(Math.random()*77))
-
-
-}
