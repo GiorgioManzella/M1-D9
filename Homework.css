@@ -1,0 +1,82 @@
+#mainchart {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: darkgray;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#playerchart {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: darkgray;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.playerchart {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: darkgray;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numberBox {
+  margin: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(114, 136, 136);
+}
+
+.playerchart {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: darkgray;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.buttons2 {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons1 {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  max-width: 500px;
+  align-items: center;
+}
+#playbutton {
+  margin-left: 40px;
+}
+#buybutton {
+  margin-left: 40px;
+}
