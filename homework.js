@@ -7,36 +7,41 @@ let generateChart = function (number2) {
     let chart1 = document.getElementById('mainchart')
     let newDiv = document.createElement('div')
     newDiv.innerText = number2
+    newDiv.id = number2
     newDiv.classList.add('numberBox')
     chart1.appendChild(newDiv)
+    
 
     
 }
 // 1 create the divs into the main container
 // loop the div creator thoush the number 76 
 let divchart =[]
-for (let index = 0; index < 76; index++) {
+for (let index = 1; index < 76; index++) {
     generateChart(index+1) 
-}
-
-
-let generateChart2 = function (number2) {
-    let chart1 = document.getElementById('playerchart')
-    let newDiv = document.createElement('div')
-    newDiv.innerText = number2
-    newDiv.classList.add('playerChart')
-    chart1.appendChild(Div)
+    
 }
 
 
 const button1 = function () {
-   let nButton = document.getElementById('Ndisplay')
-    nButton.innerText = Math.floor(Math.random()*77)
-
+    let randomNumber = Math.floor(Math.random()*77)
+    let targetNumberBox = document.getElementById(randomNumber)
+    let nDisplay = document.getElementById("nDisplay")
+    nDisplay.innerText = randomNumber
+    targetNumberBox.classList.add('selected')
+}
+let value1
+const consoleLogEventTargetValue = function (whatever){
+    console.log(whatever.target.value)
+       (whatever.target.value)
 }
 
+// document.getElementById("amountselector").addEventListener("change", function(whatever){
+//     console.log(whatever.target.value)
+// })
+document.getElementById("amountselector").addEventListener("change", consoleLogEventTargetValue)
 
-let clickedN =
-clickedN = document.getElementById('Ndisplay').addEventListener('click', clickedN.classList.add(clickedN))
+
+
 
 

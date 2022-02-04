@@ -80,3 +80,6 @@ h1 {
 #buybutton {
   margin-left: 40px;
 }
+.selected {
+  border-color: gold;
+}
