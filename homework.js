@@ -33,7 +33,7 @@ const button1 = function () {
 let value1
 const consoleLogEventTargetValue = function (whatever){
     console.log(whatever.target.value)
-       (whatever.target.value)
+    generateChart(whatever.target.value)
 }
 
 // document.getElementById("amountselector").addEventListener("change", function(whatever){
